@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0372C6D1C8F458700D855EC /* mejais.png in Resources */ = {isa = PBXBuildFile; fileRef = D0372C6A1C8F458700D855EC /* mejais.png */; };
+		D0372C6E1C8F458700D855EC /* rod.png in Resources */ = {isa = PBXBuildFile; fileRef = D0372C6B1C8F458700D855EC /* rod.png */; };
+		D0372C6F1C8F458700D855EC /* sword.png in Resources */ = {isa = PBXBuildFile; fileRef = D0372C6C1C8F458700D855EC /* sword.png */; };
 		D07F5E501C8CCA6C0023F5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F5E4F1C8CCA6C0023F5AD /* AppDelegate.swift */; };
-		D07F5E521C8CCA6C0023F5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F5E511C8CCA6C0023F5AD /* ViewController.swift */; };
-		D07F5E551C8CCA6C0023F5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07F5E531C8CCA6C0023F5AD /* Main.storyboard */; };
+		D07F5E521C8CCA6C0023F5AD /* StackOverflowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F5E511C8CCA6C0023F5AD /* StackOverflowController.swift */; };
 		D07F5E571C8CCA6C0023F5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07F5E561C8CCA6C0023F5AD /* Assets.xcassets */; };
 		D07F5E5A1C8CCA6C0023F5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07F5E581C8CCA6C0023F5AD /* LaunchScreen.storyboard */; };
+		D07F5E621C8CD8980023F5AD /* StackYourOwnAdventureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F5E611C8CD8980023F5AD /* StackYourOwnAdventureController.swift */; };
+		D07F5E651C8DD0F70023F5AD /* StackAlignmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F5E641C8DD0F70023F5AD /* StackAlignmentController.swift */; };
+		D07F5E681C8DD3980023F5AD /* IntrinsicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F5E671C8DD3980023F5AD /* IntrinsicView.swift */; };
+		D07F5E6A1C8DD5950023F5AD /* StackDistributionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F5E691C8DD5950023F5AD /* StackDistributionController.swift */; };
+		D07F5E6C1C8DD5F90023F5AD /* StackContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F5E6B1C8DD5F90023F5AD /* StackContainerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D07F5E4C1C8CCA6C0023F5AD /* StacksOfViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StacksOfViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0372C6A1C8F458700D855EC /* mejais.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mejais.png; sourceTree = "<group>"; };
+		D0372C6B1C8F458700D855EC /* rod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rod.png; sourceTree = "<group>"; };
+		D0372C6C1C8F458700D855EC /* sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sword.png; sourceTree = "<group>"; };
+		D07F5E4C1C8CCA6C0023F5AD /* Stack Your Own Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack Your Own Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07F5E4F1C8CCA6C0023F5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D07F5E511C8CCA6C0023F5AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D07F5E541C8CCA6C0023F5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D07F5E511C8CCA6C0023F5AD /* StackOverflowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowController.swift; sourceTree = "<group>"; };
 		D07F5E561C8CCA6C0023F5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D07F5E591C8CCA6C0023F5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D07F5E5B1C8CCA6C0023F5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07F5E611C8CD8980023F5AD /* StackYourOwnAdventureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackYourOwnAdventureController.swift; sourceTree = "<group>"; };
+		D07F5E641C8DD0F70023F5AD /* StackAlignmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackAlignmentController.swift; sourceTree = "<group>"; };
+		D07F5E671C8DD3980023F5AD /* IntrinsicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntrinsicView.swift; sourceTree = "<group>"; };
+		D07F5E691C8DD5950023F5AD /* StackDistributionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackDistributionController.swift; sourceTree = "<group>"; };
+		D07F5E6B1C8DD5F90023F5AD /* StackContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackContainerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +49,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0372C691C8F452000D855EC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D0372C6A1C8F458700D855EC /* mejais.png */,
+				D0372C6B1C8F458700D855EC /* rod.png */,
+				D0372C6C1C8F458700D855EC /* sword.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D07F5E431C8CCA6C0023F5AD = {
 			isa = PBXGroup;
 			children = (
-				D07F5E4E1C8CCA6C0023F5AD /* StacksOfViews */,
+				D07F5E4E1C8CCA6C0023F5AD /* StackYourOwnAdventure */,
 				D07F5E4D1C8CCA6C0023F5AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +70,52 @@
 		D07F5E4D1C8CCA6C0023F5AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D07F5E4C1C8CCA6C0023F5AD /* StacksOfViews.app */,
+				D07F5E4C1C8CCA6C0023F5AD /* Stack Your Own Adventure.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D07F5E4E1C8CCA6C0023F5AD /* StacksOfViews */ = {
+		D07F5E4E1C8CCA6C0023F5AD /* StackYourOwnAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				D07F5E631C8CDBCB0023F5AD /* ViewControllers */,
+				D07F5E661C8DD3630023F5AD /* Views */,
+				D0372C691C8F452000D855EC /* Images */,
 				D07F5E4F1C8CCA6C0023F5AD /* AppDelegate.swift */,
-				D07F5E511C8CCA6C0023F5AD /* ViewController.swift */,
-				D07F5E531C8CCA6C0023F5AD /* Main.storyboard */,
 				D07F5E561C8CCA6C0023F5AD /* Assets.xcassets */,
 				D07F5E581C8CCA6C0023F5AD /* LaunchScreen.storyboard */,
 				D07F5E5B1C8CCA6C0023F5AD /* Info.plist */,
 			);
+			name = StackYourOwnAdventure;
 			path = StacksOfViews;
+			sourceTree = "<group>";
+		};
+		D07F5E631C8CDBCB0023F5AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D07F5E611C8CD8980023F5AD /* StackYourOwnAdventureController.swift */,
+				D07F5E511C8CCA6C0023F5AD /* StackOverflowController.swift */,
+				D07F5E641C8DD0F70023F5AD /* StackAlignmentController.swift */,
+				D07F5E691C8DD5950023F5AD /* StackDistributionController.swift */,
+				D07F5E6B1C8DD5F90023F5AD /* StackContainerController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D07F5E661C8DD3630023F5AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D07F5E671C8DD3980023F5AD /* IntrinsicView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D07F5E4B1C8CCA6C0023F5AD /* StacksOfViews */ = {
+		D07F5E4B1C8CCA6C0023F5AD /* StackYourOwnAdventure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D07F5E5E1C8CCA6C0023F5AD /* Build configuration list for PBXNativeTarget "StacksOfViews" */;
+			buildConfigurationList = D07F5E5E1C8CCA6C0023F5AD /* Build configuration list for PBXNativeTarget "StackYourOwnAdventure" */;
 			buildPhases = (
 				D07F5E481C8CCA6C0023F5AD /* Sources */,
 				D07F5E491C8CCA6C0023F5AD /* Frameworks */,
@@ -79,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = StacksOfViews;
+			name = StackYourOwnAdventure;
 			productName = StacksOfViews;
-			productReference = D07F5E4C1C8CCA6C0023F5AD /* StacksOfViews.app */;
+			productReference = D07F5E4C1C8CCA6C0023F5AD /* Stack Your Own Adventure.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D07F5E471C8CCA6C0023F5AD /* Build configuration list for PBXProject "StacksOfViews" */;
+			buildConfigurationList = D07F5E471C8CCA6C0023F5AD /* Build configuration list for PBXProject "StackYourOwnAdventure" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D07F5E4B1C8CCA6C0023F5AD /* StacksOfViews */,
+				D07F5E4B1C8CCA6C0023F5AD /* StackYourOwnAdventure */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +168,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0372C6D1C8F458700D855EC /* mejais.png in Resources */,
 				D07F5E5A1C8CCA6C0023F5AD /* LaunchScreen.storyboard in Resources */,
 				D07F5E571C8CCA6C0023F5AD /* Assets.xcassets in Resources */,
-				D07F5E551C8CCA6C0023F5AD /* Main.storyboard in Resources */,
+				D0372C6E1C8F458700D855EC /* rod.png in Resources */,
+				D0372C6F1C8F458700D855EC /* sword.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +183,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D07F5E521C8CCA6C0023F5AD /* ViewController.swift in Sources */,
+				D07F5E621C8CD8980023F5AD /* StackYourOwnAdventureController.swift in Sources */,
+				D07F5E521C8CCA6C0023F5AD /* StackOverflowController.swift in Sources */,
+				D07F5E651C8DD0F70023F5AD /* StackAlignmentController.swift in Sources */,
 				D07F5E501C8CCA6C0023F5AD /* AppDelegate.swift in Sources */,
+				D07F5E6C1C8DD5F90023F5AD /* StackContainerController.swift in Sources */,
+				D07F5E6A1C8DD5950023F5AD /* StackDistributionController.swift in Sources */,
+				D07F5E681C8DD3980023F5AD /* IntrinsicView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D07F5E531C8CCA6C0023F5AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D07F5E541C8CCA6C0023F5AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D07F5E581C8CCA6C0023F5AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,8 +296,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StacksOfViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.buerer.StacksOfViews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.buerer.StackYourOwnAdventure;
+				PRODUCT_NAME = "Stack Your Own Adventure";
 			};
 			name = Debug;
 		};
@@ -262,15 +307,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StacksOfViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.buerer.StacksOfViews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.buerer.StackYourOwnAdventure;
+				PRODUCT_NAME = "Stack Your Own Adventure";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D07F5E471C8CCA6C0023F5AD /* Build configuration list for PBXProject "StacksOfViews" */ = {
+		D07F5E471C8CCA6C0023F5AD /* Build configuration list for PBXProject "StackYourOwnAdventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D07F5E5C1C8CCA6C0023F5AD /* Debug */,
@@ -279,13 +324,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D07F5E5E1C8CCA6C0023F5AD /* Build configuration list for PBXNativeTarget "StacksOfViews" */ = {
+		D07F5E5E1C8CCA6C0023F5AD /* Build configuration list for PBXNativeTarget "StackYourOwnAdventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D07F5E5F1C8CCA6C0023F5AD /* Debug */,
 				D07F5E601C8CCA6C0023F5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

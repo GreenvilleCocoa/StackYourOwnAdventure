@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:StacksOfViews.xcodeproj">
+      location = "self:/Users/Peter/Code/StacksOfViews/StackYourOwnAdventure.xcodeproj">
    </FileRef>
 </Workspace>
