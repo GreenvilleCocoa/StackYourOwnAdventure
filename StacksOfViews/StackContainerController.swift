@@ -27,7 +27,7 @@ class StackContainerController: UIViewController {
         
         let views = ["container": container]
         NSLayoutConstraint.activateConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:[container]-(8.0)-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views))
-        NSLayoutConstraint.activateConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|[container]|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views))
+        NSLayoutConstraint.activateConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|-(8.0)-[container]-(8.0)-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views))
         NSLayoutConstraint(item: container, attribute: .Top, relatedBy: .Equal, toItem: topLayoutGuide, attribute: .Bottom, multiplier: 1.0, constant: 8.0).active = true
     }
    
